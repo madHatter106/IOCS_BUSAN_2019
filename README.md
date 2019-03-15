@@ -1,3 +1,4 @@
-### Data and Code from the talk I gave at IOCS 2019 in Busan, S.Korea
+### Probabilistic Programming Workflow: 
+#### Data and Code from my talk at IOCS 2019 in Busan, S.Korea.
 <img src='./resources/logo-header-2019.png'>
 
