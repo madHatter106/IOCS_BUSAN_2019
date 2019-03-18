@@ -150,7 +150,5 @@ dependencies:
     - cftime==1.0.3.4
     - netcdf4==1.4.3.2
     - networkx==2.2
-    - python-graphviz==0.10.1
     - xarray==0.11.3
-prefix: /home/madhatter106/anaconda3/envs/busan_2019
 
