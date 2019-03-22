@@ -1,0 +1,15 @@
+digraph {
+	"α" [label="α ~ Normal"]
+	"σ" [label="σ ~ Exponential"]
+	subgraph cluster4 {
+		"β" [label="β ~ Normal"]
+		label=4 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster219 x 1" {
+		y_oc4 [label="y_oc4 ~ Normal" style=filled]
+		label="219 x 1" labeljust=r labelloc=b style=rounded
+	}
+	"α" -> y_oc4
+	"σ" -> y_oc4
+	"β" -> y_oc4
+}
