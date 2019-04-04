@@ -1,0 +1,19 @@
+digraph {
+	"hyp_α_sd" [label="hyp_α_sd ~ HalfCauchy"]
+	"hyp_β_sd" [label="hyp_β_sd ~ HalfCauchy"]
+	"σ" [label="σ ~ Exponential"]
+	subgraph cluster3 {
+		"α" [label="α ~ Normal"]
+		"β" [label="β ~ Normal"]
+		label=3 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster219 x 1" {
+		log_chl [label="log_chl ~ Normal" style=filled]
+		label="219 x 1" labeljust=r labelloc=b style=rounded
+	}
+	"hyp_α_sd" -> "α"
+	"hyp_β_sd" -> "β"
+	"α" -> log_chl
+	"β" -> log_chl
+	"σ" -> log_chl
+}
