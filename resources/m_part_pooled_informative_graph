@@ -1,0 +1,23 @@
+digraph {
+	"hyp_α_sd" [label="hyp_α_sd ~ HalfCauchy"]
+	"hyp_α_mean" [label="hyp_α_mean ~ Normal"]
+	"hyp_β_sd" [label="hyp_β_sd ~ HalfCauchy"]
+	"σ" [label="σ ~ Exponential"]
+	"hyp_β_mean" [label="hyp_β_mean ~ Normal"]
+	subgraph cluster3 {
+		"β" [label="β ~ Normal"]
+		"α" [label="α ~ Normal"]
+		label=3 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster248 {
+		log_chl_s [label="log_chl_s ~ Normal" style=filled]
+		label=248 labeljust=r labelloc=b style=rounded
+	}
+	"hyp_α_mean" -> "α"
+	"hyp_α_sd" -> "α"
+	"hyp_β_sd" -> "β"
+	"hyp_β_mean" -> "β"
+	"σ" -> log_chl_s
+	"β" -> log_chl_s
+	"α" -> log_chl_s
+}
