@@ -8,7 +8,6 @@
   </td>
   <td>
     <img src='./resources/m_pooled_naive_graph.png' width=500 />
-    <img src='./resources/m_part_pooled_informative_graph.png' width=500 />
   </td>
 </table>
   
