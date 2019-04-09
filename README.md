@@ -1,5 +1,5 @@
 ## _Probabilistic Programming Workflow_
-#### Data and Code from my talk at IOCS 2019 in Busan, S.Korea.
+#### Data and Code from my talk at the Open Source Scientific Computing Tools & Resources Breakout Workshop, IOCS 2019 in Busan, Korea.
 <img src='./resources/logo-header-2019.png'>
 <br>
 <table>
